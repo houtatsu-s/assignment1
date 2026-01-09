@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* ボタン部分 */
+.work-btn {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  background: #1E1E21;
+  padding: 16px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.work-btn > a {
+  color: #F5F3EF;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+/* ボタン部分 */
+
+/* Work部分 */
+.container {
+  position: relative;
+  width: 1920px;
+  padding: 64px;
+}
+.contents-title {
+  font-size: 192px;
+  font-weight: 600;
+  letter-spacing: -10px;
+}
+.contents-text {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+/* Work部分 */
+
+/* メイン部分 */
+.contents {
+  width: 1920px;
+}
+.contents-img {
+  width: 100%;
+}
+.contents-img > img {
+  width: 100%;
+}
+.warp {
+  width: 100%;
+  display: flex;
+  padding: 48px 64px;
+}
+.warp-name {
+  width: 60%;
+  font-size: 128px;
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin: 0 48px 0 0;
+}
+.warp-info {
+  width: 40%;
+}
+.warp-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgb(30 30 33 / 70%);
+  margin: 0 0 14px;
+}
+.warp-btn {
+  display: flex;
+}
+.btn-web,
+.btn-brand {
+  padding: 10px 16px;
+  background: #1E1E21;
+  border-radius: 50px;
+  margin: 0 8px 0 0;
+  cursor: pointer;
+}
+.btn-brand {
+  margin: 0;
+}
+.btn-web > a,
+.btn-brand > a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #F5F3EF;
+}
+/* メイン部分 */
+
+
+/* フッター部分 */
+footer {
+  width: 1920px;
+  padding: 157px 64px 138px;
+  background: #1E1E21;
+  align-items: center;
+  text-align: center;
+}
+.footer-name {
+  color: #F5F3EF;
+  font-size: 192px;
+  font-weight: 600;
+  letter-spacing: -10px;
+  margin: 0 0 32px;
+}
+.footer-btn {
+  background: #F5F3EF;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  margin: 0 0 140px;
+}
+.footer-btn > a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+footer > ul {
+  display: flex;
+  justify-content: space-between;
+  width: calc(111px * 4 + 144px);
+  margin: 0 auto;
+}
+footer > ul > li {
+  width: 111px;
+}
+footer > ul > li > a {
+  display: block;
+  width: 100%;
+  color: #F5F3EF;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+/* フッター部分 */

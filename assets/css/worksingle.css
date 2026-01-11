@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* 線(ライン)部分 */
+.content-about > .line,
+.box-kinds > .line {
+  border: 1px solid #1E1E21;
+}
+.box-kinds > .line {
+  margin: 0 0 64px;
+}
+/* 線(ライン)部分 */
+
 /* ボタン部分 */
 .menu-btn {
   position: absolute;
@@ -57,12 +67,98 @@ dl > .list-info {
 }
 /* Work02部分 */
 
+/* キービジュアル部分 */
 .k-visual {
   width: 1920px;
 }
 .k-visual > img {
   width: 100%;
 }
+/* キービジュアル部分 */
+
+/* 私について部分 */
+.content-about {
+  width: 1920px;
+  padding: 64px;
+  display: flex;
+}
+.content-box {
+  width: calc(100% - (72% - 2px));
+  margin: 0 64px 0 0;
+}
+.box-production {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.production-name {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.arrow-img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.arrow-img > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-kinds {
+  width: calc(100% - (28% - 2px));
+  margin: 0 0 0 64px;
+}
+.kinds1,
+.kinds2 {
+  margin: 0 0 64px;
+}
+.kinds-alias {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+.kinds-name {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin: 0 0 16px;
+}
+.box-kinds-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgb(30 30 33 / 70%);
+}
+/* 私について部分 */
+
+/* ギャラリー部分 */
+.img-box {
+  width: 1920px;
+}
+.img-gallery {
+  padding: 64px 64px 48px;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+.img1,
+.img2 {
+  width: 100%;
+}
+.img1 > img,
+.img2 > img {
+  width: 100%;
+}
+/* ギャラリー部分 */
+
 
 
 /* フッター部分 */
